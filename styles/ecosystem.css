@@ -26,10 +26,13 @@ h1{
 }
 
 h2{
-  font-size: 23px;
-  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 600;
   text-align: center;
   position: relative;
+  margin-top: 150px;
+  margin-bottom: 75px;
 }
 
 p{
@@ -59,6 +62,16 @@ img{
   width: 100%;
 }
 
-a {
+a{
   color: #0070c9;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.sousTitre{
+  margin: 0 auto;
+  width: 700px;
+  text-align: center;
 }
