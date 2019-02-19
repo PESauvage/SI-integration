@@ -24,10 +24,15 @@ body{
 }
 
 .container{
+  left: 940px;
   width: 960px;
   margin: 0 auto;
 }
 
+#header{
+  background-color: #333;
+  height: 44px;
+}
 .footer_div_flex div a::after{
   content:">";
 }
@@ -37,7 +42,6 @@ body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
   font-size: 17px;
   position: fixed;
   top: 0;
