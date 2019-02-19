@@ -36,6 +36,9 @@ h2{
 }
 
 p{
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 600px;
   font-size: 17px;
   text-align: center;
 }
@@ -74,4 +77,8 @@ a:hover{
   margin: 0 auto;
   width: 700px;
   text-align: center;
+}
+
+.sousTitre h2{
+  color: magenta;
 }
