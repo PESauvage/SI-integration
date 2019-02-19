@@ -62,9 +62,30 @@ body{
   color: #ccc;
 }
 
+.button{
+  position:absolute;
+  text-decoration: none;
+  color:white;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background: linear-gradient(#42a1ec, #0070c9);
+  border-color: #07c;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+}
 
 footer{
   background-color: #f2f2f2;
+}
+
+footer nav{
+  display: flex;
 }
 
 footer nav ul {
@@ -79,7 +100,6 @@ footer nav ul li {
  footer nav ul li a {
   color:#333;
   text-decoration:none;
-  text-transform: uppercase;
   margin:0 1em 0 0;
   font-size:0.5em;
  }
