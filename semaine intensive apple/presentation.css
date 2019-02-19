@@ -1,0 +1,94 @@
+.container1{
+    background-image: url("img/fullscreen pres.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.container2{
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.part1{
+    background-color: rgb(14, 14, 14);
+
+}
+.part2{
+    background-color: rgb(228, 228, 228);
+
+}
+
+
+.square{
+    width: 50%;
+    height: 1000px;
+
+}
+#quote1{
+    position: absolute;
+    top: 40%;
+    left: 200px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+body{
+    background-color: #fafafa;
+}
+
+/* jouer sur l'alternation du display des images pour créer le caroussel */
+.frame1{
+    display: block;
+}
+.frame2{
+    display:none;
+}
+
+ 
+.part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.part2text{
+    font-size: 2em;
+    margin: 40px 140px 40px 140px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.dot{
+    font-size: 10em;
+    opacity: 0.2;
+    color: aliceblue;
+    position: absolute;
+    bottom: 20px;
+    left: 44%;
+}
+.dot2{
+    font-size: 10em;
+    color: aliceblue;
+    position: absolute;
+    bottom: 20px;
+    left: 53%;
+}
