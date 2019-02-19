@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: normal;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+@font-face{
+    font-family: "SF Pro Text";
+    font-weight: bold;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: "SF Pro Text","Arial", sans-serif;
+  font-size: 23px;
+  color: #111;
+  background-color: #f2f2f;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.footer_div_flex div a::after{
+  content:">";
+}
+
+.header_nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 17px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header_nav li {
+  justify-content: flex-start;
+  float: left;
+}
+
+.header_nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.header_nav li a:hover {
+  color: #ccc;
+}
+
+
+footer{
+  background-color: #f2f2f2;
+}
