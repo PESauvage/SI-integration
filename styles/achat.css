@@ -110,12 +110,19 @@ body{
 
 .picApple{
   height: 30px;
-  margin-top: -6px;
+  margin-top: -2px;
+  margin-left: -30%;
 }
 
 .main_buyAppleCare_2 p{
   font-size: 13px;
 }
+
+.picMultiples{
+  height: 150px;
+  width: auto;
+}
+
 
 /*
 .main_buy{
