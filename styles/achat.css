@@ -47,21 +47,72 @@ body{
 .main_colorChoice{
   display: flex;
   flex-flow: column nowrap;
-  margin-left: 35%;
 }
 
 .main_colorChoice h4{
   font-size: 17px;
+  margin-left: -250px;
 }
 
 .main_colorChoice_width img{
   height: 75px;
   width: auto;
+  margin-left: -40px;
 }
 
 .main_buy>p{
   font-weight: bold;
+  font-size: 20px;
+  margin-left: -230px;
 }
+
+.main_buy_add{
+  margin-top: 60px;
+  margin-left: -170px;
+  font-size: 14px;
+}
+
+.main_preferences{
+  text-align: center;
+}
+
+.main_buyButton p{
+  position:absolute;
+  text-decoration: none;
+  color:white;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background: linear-gradient(#42a1ec, #0070c9);
+  border-color: #07c;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.main_buyButton {
+  font-size: 19px;
+  margin-left: 40%;
+}
+
+.main_buyButton_little{
+  font-size: 14px;
+  margin-left: 54%;
+  margin-top: -3.5%;
+}
+
+.picApple{
+  height: 30px;
+  margin-top: -6px;
+}
+
+.main_buyAppleCare_2 p{
+  font-size: 13px;
+}
+
 /*
 .main_buy{
   display: flex;
