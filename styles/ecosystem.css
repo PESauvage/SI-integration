@@ -6,16 +6,20 @@ body{
     color: #111;
   }
   
+@font-face {
+  font-family: "SF Pro Text";
+  font-weight: normal;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+@font-face{
+  font-family: "SF Pro Text";
+  font-weight: bold;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
 .container{
   margin:0 auto;
   width: 960px;
-}
-  
-.titre{
-  margin: 0 auto;
-  width: 988px;
-  display: flex;
-  align-items: center
 }
   
 h1{
@@ -23,6 +27,10 @@ h1{
   text-align: center;
   position: relative;
   font-size: 60px;
+  margin: 0 auto;
+  width: 988px;
+  display: flex;
+  align-items: center
 }
 
 h2{
@@ -31,8 +39,8 @@ h2{
   font-weight: 600;
   text-align: center;
   position: relative;
-  margin-top: 150px;
-  margin-bottom: 75px;
+  margin-top: 75px;
+  margin-bottom: 40px;
 }
 
 p{
@@ -44,7 +52,7 @@ p{
 }
 
 .article__button{
-  position:absolute;
+  position: absolute;
   text-decoration: none;
   color:white;
   font-size: 12px;
@@ -67,18 +75,37 @@ img{
 
 a{
   color: #0070c9;
+  margin-top: 60px;
+  font-size: 17px;
 }
 
 a:hover{
   text-decoration: none;
 }
 
-.sousTitre{
+.textIllustration{
   margin: 0 auto;
-  width: 700px;
-  text-align: center;
+  width: 960px;
+  display: flex;
 }
 
-.sousTitre h2{
-  color: magenta;
+.imagesAMLarge{
+  flex: 1;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+
+.textIllustration .textLink{
+  padding-left: 20px;
+}
+
+.textIllustration .textLink{
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.textLink{
+  flex-direction: column;
 }
