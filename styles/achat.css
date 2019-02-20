@@ -51,19 +51,23 @@ body{
 
 .main_colorChoice h4{
   font-size: 17px;
-  margin-left: -250px;
+  margin-left: -260px;
 }
 
 .main_colorChoice_width img{
   height: 75px;
   width: auto;
-  margin-left: -40px;
+}
+
+.main_colorChoice_width{
+  margin-left: -45px;
 }
 
 .main_buy>p{
   font-weight: bold;
   font-size: 20px;
-  margin-left: -230px;
+  margin-left: -240px;
+  margin-top: 20px;
 }
 
 .main_buy_add{
