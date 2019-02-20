@@ -108,6 +108,13 @@ body{
   margin-top: -3.5%;
 }
 
+.main_buyButton a:hover{
+  text-decoration: none;
+  background: linear-gradient(#54b3ff,#108cef);
+  border-color: #108cef;
+  color: #FFF;
+}
+
 .picApple{
   height: 30px;
   margin-top: -2px;
