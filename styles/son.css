@@ -23,6 +23,7 @@ body{
 
 .main_homePage{
 	text-align: center;
+	margin-bottom: 100px
 }
 
 .main_homePage h3{
@@ -42,10 +43,21 @@ body{
 	margin-bottom: 20px;
 }
 
-.main_page2 .picBasses{
+/*div[class^="main_"] img[class^="sonPic_"]{
+	height: 500px;
+	width: auto;
+}*/
+
+.main_page2 .sonPic_basses{
 	height: 500px;
 	width: auto;
 }
+
+/*div[class^="main_"]{
+	display: flex;
+	flex-flow: row nowrap;
+	text-align: center;
+}*/
 
 .main_page2{
 	display: flex;
@@ -53,15 +65,32 @@ body{
 	text-align: center;
 }
 
+/*div[class$="_text"]{
+	padding-left: 20px;
+}*/
+
 .main_page2_text{
 	padding-left: 20px;
 }
+
+/*div[class$="_text"] h3{
+	font-size: 40px;
+}*/
 
 .main_page2_text h3{
 	font-size: 40px;
 }
 
+/*div[class$="_text"] p{
+	width:400px;
+	margin-left: 80px;
+}*/
+
 .main_page2_text p{
 	width:400px;
 	margin-left: 80px;
+}
+
+.main_page2{
+	margin-bottom: 90px;
 }
