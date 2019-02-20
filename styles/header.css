@@ -130,3 +130,8 @@ footer nav ul li {
  .footer_div_flex p, .footer_div_flex a{
    font-size: 14px;
  }
+
+ .footer_div_flex{
+   display: flex;
+   text-align: center;
+ }
