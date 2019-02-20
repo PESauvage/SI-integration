@@ -88,9 +88,8 @@ a:hover{
 }
 
 .imagesAMLarge{
-  flex: 1;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  margin: 0 auto;
+  width: 50%
 }
 
 .textLink{
@@ -107,6 +106,37 @@ a:hover{
   height: 287px;
 }
 
-.space{
+.spaceLarge{
   height: 75px;
+}
+
+.spaceSmall{
+  height: 20px;
+}
+
+.exampleSiri{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+	color: transparent;
+    background-image: linear-gradient(to left, #777dff 0px, #f154ff 200px, #f0357c 400px),linear-gradient(to right, #777dff 0px, #497ce2 200px, #37bdde 400px);
+    background-size: 51% 100%;
+    background-position: top left, top right;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 6px;
+    font-size: 54px;
+    line-height: 1.48164;
+    font-weight: 700;
+    letter-spacing: -.015em;
+}
+
+.exampleSiri p{
+  font-size: 35px;
+}
+
+.Homekit img{
+  width: 540px;
+  height: 300px;
 }
