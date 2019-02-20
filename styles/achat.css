@@ -72,7 +72,7 @@ body{
 
 .main_buy_add{
   margin-top: 60px;
-  margin-left: -170px;
+  margin-left: -140px;
   font-size: 14px;
 }
 
@@ -80,7 +80,7 @@ body{
   text-align: center;
 }
 
-.main_buyButton p{
+.main_buyButton a{
   position:absolute;
   text-decoration: none;
   color:white;
@@ -99,19 +99,19 @@ body{
 
 .main_buyButton {
   font-size: 19px;
-  margin-left: 40%;
+  margin-left: -17%;
 }
 
 .main_buyButton_little{
   font-size: 14px;
-  margin-left: 54%;
+  margin-left: 8%;
   margin-top: -3.5%;
 }
 
 .picApple{
   height: 30px;
   margin-top: -2px;
-  margin-left: -30%;
+  margin-left: -27%;
 }
 
 .main_buyAppleCare_2 p{
