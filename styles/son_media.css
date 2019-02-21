@@ -6,6 +6,20 @@
     overflow: hidden;
   }
 
+  footer nav{
+    display: flex;
+    margin-left: 0%;
+    text-align: center;
+  }
+
+  .main_homePage img{
+  	width: 350px;
+    margin-top: 0%;
+    margin-left: 0%;
+    background-color: #111;
+    border-radius: 0%;
+  }
+
   .main_homePage p{
   	width: 350px;
     margin-top: 0%;
@@ -14,11 +28,13 @@
     border-radius: 0%;
   }
 
+
   .main_page2{
   	display: flex;
   	flex-flow: column nowrap;
   	text-align: center;
     align-items: center;
+    margin-top: 50px;
     margin-bottom: 50px;
   }
 
@@ -37,7 +53,7 @@
   }
 
   .main_page2 p{
-  	width: 350px;
+  	width: 320px;
     margin-left: 0%;
   }
 

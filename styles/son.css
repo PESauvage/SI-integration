@@ -13,7 +13,7 @@ body{
 	padding: 0;
 	font-family: "SF Pro Text","Arial", sans-serif;
 	font-size: 17px;
-	background-color: #f2f2f2;
+	background-color: #FFF;
 }
 
 .container{
@@ -21,13 +21,10 @@ body{
   margin: 0 auto;
 }
 
-.container{
-  width: 960px;
-  margin: 0 auto;
-}
+/*HEADER*/
 
-header#header{
-  background-color: black;
+#header nav {
+    background-color: rgb(39, 38, 38);
 }
 
 .py-2 {
@@ -82,6 +79,93 @@ header#header{
 
 }
 
+/*FOOTER*/
+
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+}
+
+.container{
+  left: 940px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.footer_div_flex div a::after{
+  content:">";
+}
+
+footer{
+  background-color: #f2f2f2;
+}
+
+footer div a{
+  text-decoration: none;
+  color:#0070c9;
+}
+
+footer div a:hover{
+  text-decoration: underline;
+  color:#0070c9;
+}
+
+footer nav{
+  display: flex;
+  margin-left: 19%;
+}
+
+footer nav ul {
+  margin-top:0.5em;
+
+}
+
+footer nav ul li {
+  display:inline;
+  margin:0;
+ }
+
+ footer nav ul li a {
+  color:#333;
+  text-decoration:none;
+  margin:0 1em 0 0;
+  font-size:0.5em;
+ }
+
+ footer nav ul li a:hover {
+  text-decoration:underline;
+ }
+
+ footer nav img {
+  float:right;
+ }
+
+ footer nav p {
+  color:#fff;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size:0.7em;
+  margin-top:0.5em;
+ }
+
+ .footer_div_flex h4{
+   font-size: 19px;
+ }
+
+ .footer_div_flex p, .footer_div_flex a{
+   font-size: 14px;
+ }
+
+ .footer_div_flex{
+   display: flex;
+   text-align: center;
+ }
+
+/*MAIN*/
+
 #main_backgroundImage{
   width: 100%;
 }
@@ -96,6 +180,7 @@ header#header{
 	font-size: 60px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  margin-top:60px;
 }
 
 .main_homePage p{
