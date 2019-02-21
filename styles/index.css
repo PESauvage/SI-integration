@@ -1,0 +1,560 @@
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: normal;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: bold;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+
+
+
+
+.container1 {
+    background-image: url("../img/useful.pdf.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-sizing: unset;
+}
+
+.extraSpace {
+    margin: 0 50px 0 50px;
+}
+
+.container2 {
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    color: black;
+}
+
+.container4 {
+    width: 100%;
+    margin: 0 auto;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container5 {
+    width: 100%;
+    margin: 0 auto;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.part1 {
+    background-color: rgb(14, 14, 14);
+
+}
+
+.part2,
+.frame1,
+.container2 {
+    background-color: rgba(0, 0, 255, 0)
+}
+
+body {
+    background-color: rgb(250, 250, 250);
+
+}
+
+
+.square {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+.square2 {
+    width: 50%;
+    height: 600px;
+
+}
+
+#quote1 {
+    align-self: flex-start;
+    margin-left: 15%;
+    font-size: 2em;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    font-weight: 600;
+
+}
+
+#argumentitre {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+#argumentitre2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.buy {
+    align-self: flex-start;
+    background: #0070c9;
+    text-decoration: none;
+    color: white;
+    margin-left: 15%;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    transition: all 0.1s ease-in;
+    box-shadow: 0px 0px 0px grey;
+}
+
+.moreinfo {
+
+    background: #0070c9;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    transition: all 0.1s ease-in;
+    box-shadow: 0px 0px 0px grey;
+}
+
+.buy:hover {
+
+    box-shadow: 5px 5px 20px grey;
+    background: #0070c9;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    transition: all 0.1s ease-in;
+}
+
+
+
+
+
+
+.container{
+  left: 940px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.footer_div_flex div a::after{
+  content:">";
+}
+
+footer{
+  background-color: #f2f2f2;
+  height: 300px;
+  position: relative;
+}
+
+footer div a{
+  text-decoration: none;
+  color:#0070c9;
+}
+
+footer div a:hover{
+  text-decoration: underline;
+  color:#0070c9;
+}
+
+footer nav{
+  display: flex;
+  width: 100%;
+  color: aliceblue;
+  justify-content: space-around;
+ 
+  position : absolute;
+  bottom: 0px;
+}
+
+footer nav ul {
+  margin-top:0.5em;
+
+}
+
+footer nav ul li {
+  display:inline;
+  margin:0;
+ }
+
+ footer nav ul li a {
+  color:rgb(211, 211, 211);
+  text-decoration:none;
+  margin:0 1em 0 0;
+  font-size:0.8em;
+  
+ }
+
+ footer nav ul li a:hover {
+  text-decoration:underline;
+ }
+
+ footer nav img {
+  float:right;
+ }
+
+ footer nav p {
+  color:#fff;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size:0.7em;
+  margin-top:0.5em;
+ }
+
+ .footer_div_flex h4{
+   font-size: 19px;
+ }
+
+ .footer_div_flex p, .footer_div_flex a{
+   font-size: 14px;
+ }
+
+ .footer_div_flex{
+   display: flex;
+   text-align: center;
+ }
+
+
+
+
+
+
+
+.moreinfo:hover {
+    background: #0070c9;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    transition: all 0.1s ease-in;
+    box-shadow: 2px 2px 40px rgb(58, 58, 58);
+}
+
+
+body {
+    background-color: rgb(250, 250, 250);
+    box-sizing: border-box;
+}
+
+/* jouer sur l'alternation du display des images pour créer le caroussel */
+.frame1 {
+    position: absolute;
+    opacity: 1;
+}
+
+.frame2 {
+    position: absolute;
+    opacity: 0;
+}
+
+.part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.part2text {
+    font-size: 2em;
+    margin: 40px 140px 40px 140px;
+    display: block;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.dot {
+    font-size: 10em;
+    color: aliceblue;
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.dot2 {
+    font-size: 10em;
+    color: aliceblue;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    opacity: 0.1;
+    cursor: pointer;
+}
+
+.line {
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+/* la navbar */
+.py-2 {
+    color: rgb(228, 228, 228);
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    font-weight: 500;
+    height: 10px;
+    text-decoration: none;
+
+    margin: 5px 1px 5px 1px;
+
+}
+#logo{
+
+}
+.py-2:hover {
+    color: rgb(228, 228, 228);
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    font-weight: 500;
+    height: 10px;
+    text-decoration: none;
+
+    margin: 5px 1px 5px 1px;
+
+}
+
+
+.site-header {
+    height: 50px;
+}
+
+nav {
+    background-color: rgb(39, 38, 38);
+}
+
+
+
+
+
+/* container  3 */
+
+.superpoze {
+    position: absolute;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+
+}
+
+.puzzle1 {
+    position: absolute;
+}
+
+.superpoze:hover {
+    position: absolute;
+    opacity: 1;
+
+}
+
+.lang {
+    font-size: 3em;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    color: black;
+}
+
+.trad {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.sono {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.extramargin {
+    margin-bottom: 50px;
+}
+
+.textsound {
+
+    font-size: 1.4em;
+    margin: 10px 100px 30px 100px;
+    display: block;
+    width: 600px;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+.containtext {
+    background-color: black;
+    flex-direction: column;
+    color: white;
+    width: 60%;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.line2 {
+    top: 45%;
+    left: 50%;
+    position: absolute;
+}
+
+.line3 {
+    position: absolute;
+    left: 26%;
+    top: 88%;
+}
+
+
+
+.sell {
+    background: #0070c9;
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px 0 5px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    transition: all 0.1s ease-in;
+    box-shadow: 0px 0px 0px grey;
+
+}
+
+.sell:hover {
+    background: #0070c9;
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px 0 5px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    transition: all 0.1s ease-in;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.281);
+
+}
+
+
+
+
+/* RESPONSIVE */
