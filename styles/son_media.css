@@ -12,6 +12,10 @@
     text-align: center;
   }
 
+  .footer_div_flex{
+    flex-flow: column wrap;
+  }
+
   .main_homePage img{
   	width: 350px;
     margin-top: 0%;
@@ -63,6 +67,10 @@
     margin: 0 auto;
     margin-bottom: 90px;
   }
+
+
+
+
 }
 
 @media screen and (min-width:768px) and (max-width:1024px){
