@@ -91,7 +91,7 @@ h3{
 }
 
 .main_page3 h3{
-  color: linear-gradient(#42a1ec, #0070c9);
+  background: linear-gradient(#42a1ec, #0070c9);
 }
 
 .main_page3 a{
