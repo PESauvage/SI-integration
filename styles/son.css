@@ -12,7 +12,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: "SF Pro Text","Arial", sans-serif;
-	font-size: 22px;
+	font-size: 17px;
 	background-color: #f2f2f2;
 }
 
@@ -32,20 +32,21 @@ body{
 }
 
 .main_homePage h2{
-	font-size: 45px;
+	font-size: 60px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .main_homePage p{
-	font-size: 25px;
 	width: 500px;
 	margin-bottom: 50px;
   position: absolute;
-  margin-top: -35%;
+  margin-top: -32%;
   margin-left: 20%;
   background-color: rgba(0,0,0,0.7);
   color:#fff;
   padding:20px;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 .picHomePod{
@@ -54,21 +55,10 @@ body{
 	margin-bottom: 20px;
 }
 
-/*div[class^="main_"] img[class^="sonPic_"]{
-	height: 500px;
-	width: auto;
-}*/
-
 .main_page2 .sonPic_basses{
 	height: 500px;
 	width: auto;
 }
-
-/*div[class^="main_"]{
-	display: flex;
-	flex-flow: row nowrap;
-	text-align: center;
-}*/
 
 .main_page2{
 	display: flex;
@@ -76,26 +66,13 @@ body{
 	text-align: center;
 }
 
-/*div[class$="_text"]{
-	padding-left: 20px;
-}*/
-
 .main_page2_text{
 	padding-left: 20px;
 }
 
-/*div[class$="_text"] h3{
-	font-size: 40px;
-}*/
-
 h3{
-	font-size: 40px;
+	font-size: 32px;
 }
-
-/*div[class$="_text"] p{
-	width:400px;
-	margin-left: 80px;
-}*/
 
 .main_page2_text p{
 	width:400px;
@@ -108,7 +85,9 @@ h3{
 
 .main_page3{
 	text-align: center;
-	margin-bottom: 90px;
+  width:600px;
+  margin: 0 auto;
+  margin-bottom: 90px;
 }
 
 .main_page3 h3{
