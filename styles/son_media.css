@@ -24,7 +24,7 @@
   	width: 350px;
     margin-top: 0%;
     margin-left: 0%;
-    background-color: #111;
+    background-color: rgba(0,0,0,0.7);
     border-radius: 0%;
   }
 
@@ -59,7 +59,7 @@
 
   .main_page3{
   	text-align: center;
-    width:400px;
+    width:300px;
     margin: 0 auto;
     margin-bottom: 90px;
   }
