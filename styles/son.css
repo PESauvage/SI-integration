@@ -164,6 +164,11 @@ footer nav ul li {
    text-align: center;
  }
 
+ #footer_usefulLinks{
+   display: flex;
+   justify-content: center;
+ }
+
 /*MAIN*/
 
 #main_backgroundImage{
@@ -181,6 +186,7 @@ footer nav ul li {
   padding-bottom: 0px;
   margin-bottom: 0px;
   margin-top:60px;
+  font-weight: bold;
 }
 
 .main_homePage p{
@@ -218,6 +224,7 @@ footer nav ul li {
 
 h3{
 	font-size: 32px;
+  font-weight: bold;
 }
 
 .main_page2_text p{
