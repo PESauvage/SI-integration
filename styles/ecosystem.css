@@ -15,6 +15,7 @@ body{
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  background: #F2F2F2
 }
 
 .container{
@@ -90,7 +91,7 @@ a:hover{
 
 .imagesAMLarge{
   margin: 0 auto;
-  width: 50%
+  width: 80%;
 }
 
 .textLink{
