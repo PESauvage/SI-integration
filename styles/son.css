@@ -21,9 +21,14 @@ body{
   margin: 0 auto;
 }
 
+#main_backgroundImage{
+  width: 100%;
+}
+
 .main_homePage{
 	text-align: center;
-	margin-bottom: 100px
+	margin-bottom: 100px;
+  position: relative;
 }
 
 .main_homePage h2{
@@ -32,9 +37,15 @@ body{
 
 .main_homePage p{
 	font-size: 25px;
-	width: 700px;
-	margin: 0 auto;
+	width: 500px;
 	margin-bottom: 50px;
+  position: absolute;
+  margin-top: -35%;
+  margin-left: 20%;
+  background-color: rgba(0,0,0,0.7);
+  color:#fff;
+  padding:20px;
+  border-radius: 4%;
 }
 
 .picHomePod{
@@ -104,19 +115,15 @@ h3{
   color: linear-gradient(#42a1ec, #0070c9);
 }
 
-.gradient {
-  display: inline-block;
-  background-color: #f2f2f2;
-  position: relative;
+.main_page3 a{
+  text-decoration: none;
+  color:#0070c9;
 }
 
-.gradient::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background:linear-gradient(to left, #777dff 0px, #f154ff 200px, #f0357c 400px),linear-gradient(to right, #777dff 0px, #497ce2 200px, #37bdde 400px);
-  content: '';
-  display: block;
-  mix-blend-mode: screen;
+.gradient {
+  color: #f0357c;
+  background-image: linear-gradient(to right, #f0357c 100px, #f154ff 200px, #777dff 300px, #37bdde 500px);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-repeat: no-repeat;
+}
