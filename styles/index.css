@@ -10,9 +10,10 @@
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
 
-
-
-
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
 
 .container1 {
     background-image: url("../img/useful.pdf.png");
@@ -200,17 +201,6 @@ body {
     transition: all 0.1s ease-in;
 }
 
-
-
-
-
-
-.container{
-  left: 940px;
-  width: 960px;
-  margin: 0 auto;
-}
-
 .footer_div_flex div a::after{
   content:">";
 }
@@ -236,7 +226,7 @@ footer nav{
   width: 100%;
   color: aliceblue;
   justify-content: space-around;
- 
+
   position : absolute;
   bottom: 0px;
 }
@@ -256,7 +246,7 @@ footer nav ul li {
   text-decoration:none;
   margin:0 1em 0 0;
   font-size:0.8em;
-  
+
  }
 
  footer nav ul li a:hover {
