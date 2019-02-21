@@ -1,38 +1,17 @@
-@media screen (min-width:768px) and (max-width:1024px){
-
-  .main_page2{
-    display: flex;
-    flex-flow: column;
-  }
-
-}
-
 @media screen and (max-width:768px){
 
   .container{
-    width: 480px;
+    width: 380px;
     margin:0 auto;
     overflow: hidden;
   }
 
   .main_homePage p{
-  	width: 450px;
-  	margin-bottom: 50px;
-    position: absolute;
+  	width: 350px;
     margin-top: 0%;
     margin-left: 0%;
     background-color: #111;
-    color:#fff;
-    padding:20px;
     border-radius: 0%;
-  }
-
-  .main_page2_text{
-    display: block;
-  }
-
-  .sonPic_basses{
-    display: block;
   }
 
   .main_page2{
@@ -48,18 +27,18 @@
   }
 
   .main_page2 .sonPic_basses{
-  	width: 160px;
+  	width: 130px;
   	height: auto;
   }
 
   .main_page2_text{
-  	width: 450px;
+  	width: 350px;
     text-align: center;
   }
 
   .main_page2 p{
   	width: 350px;
-    margin-left: 10%;
+    margin-left: 0%;
   }
 
   .main_page3{
@@ -68,4 +47,33 @@
     margin: 0 auto;
     margin-bottom: 90px;
   }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+  .container{
+    width: 768px;
+    margin:0 auto;
+    overflow: hidden;
+  }
+
+  .main_homePage p{
+  	width: 500px;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 15%;
+    color:#fff;
+    padding:20px;
+  }
+
+  .main_page2 .sonPic_basses{
+  	width: 327px;
+  	height: 410px;
+  }
+
+  .main_page2_text p{
+  	width: 300px;
+    margin-left: 50px;
+  }
+
 }
