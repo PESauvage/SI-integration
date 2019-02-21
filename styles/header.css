@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: normal;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+@font-face{
+    font-family: "SF Pro Text";
+    font-weight: bold;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
 .py-2 {
     color: rgb(228, 228, 228);
     font-family: "SF Pro Text","Arial", sans-serif;
@@ -5,6 +21,11 @@
         padding: 0 10px 0 10px;
         margin: 2px 1px 2px 1px ;
 
+}
+
+.py-1 a:hover{
+  text-decoration: none;
+  color:#bbb;
 }
 
 nav {
