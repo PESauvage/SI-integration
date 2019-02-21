@@ -10,9 +10,118 @@
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
 
+
 .container{
   width: 960px;
   margin: 0 auto;
+}
+
+.py-2 {
+    color: rgb(228, 228, 228);
+    font-family: "SF Pro Text","Arial", sans-serif;
+        font-weight: 500;
+        padding: 0 10px 0 10px;
+        margin: 2px 1px 2px 1px ;
+
+}
+
+.py-1 a:hover{
+  text-decoration: none;
+  color:#bbb;
+}
+
+.sell {
+    background: #0070c9;
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px 0 5px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    transition: all 0.1s ease-in;
+    box-shadow: 0px 0px 0px grey;
+
+}
+
+.sell:hover {
+    background: #0070c9;
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px 0 5px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+    transition: all 0.1s ease-in;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.281);
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .sell{
+    background: #0070c9;
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px 0 5px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: "SF Pro Text","Arial", sans-serif;
+        transition: all 0.1s ease-in;
+    box-shadow: 0px 0px 0px grey;
+
+}
+
+}
+
+@media only screen (min-width: 768px) and (max-width: 1024px) {
+
+  .sell {
+        background: #0070c9;
+        text-decoration: none;
+        color: white;
+        padding: 0px 5px 0 5px !important;
+        padding-top: 0 px !important;
+        background: linear-gradient(#42a1ec, #0070c9);
+        border-color: #07c;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 4px;
+        font-family: "SF Pro Text", "Arial", sans-serif;
+        transition: all 0.1s ease-in;
+        box-shadow: 0px 0px 0px grey;
+
+}
+
+}
+
+nav {
+    background-color: rgb(39, 38, 38);
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+header #logo{
+  margin-left: 100px;
 }
 
 .container1 {
