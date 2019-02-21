@@ -9,6 +9,21 @@
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
 
+@media screen and (max-width: 330px) {
+  .py-2{
+      font-size: 0.83em;
+      margin: 1px 0 1px 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .py-2{
+      font-size: 0.9em;
+      padding: 0 1px 0 1px ;
+  }
+}
+
 body{
   font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
@@ -16,6 +31,19 @@ body{
   margin: 0;
   padding: 0;
   background: #F2F2F2
+}
+
+.py-2 {
+  color: rgb(228, 228, 228);
+  font-family: "SF Pro Text","Arial", sans-serif;
+      font-weight: 500;
+      padding: 0 10px 0 10px;
+      margin: 2px 1px 2px 1px ;
+
+}
+
+nav {
+  background-color: rgb(39, 38, 38);
 }
 
 .container{
