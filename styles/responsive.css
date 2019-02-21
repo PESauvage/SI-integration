@@ -1,0 +1,373 @@
+@media screen and (max-width: 550px) {
+    .container1 {
+        height: 600px;
+        background-color: #fafafa;
+        background: #fafafa;
+    }
+
+    .buy {
+        margin: 0 auto;
+    }
+
+    #quote1 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .part1,
+    .part2 {
+        width: 100%;
+        height: 400px;
+    }
+    .responsiveConfig {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer_div_flex p,
+    .footer_div_flex a {
+        font-size: 8px;
+        margin-bottom: 1px;
+
+    }
+
+    .footer_div_flex h4 {
+        font-size: 11px;
+        margin-bottom: 1px;
+    }
+
+    .reponsiveConfig_div {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+
+    .dot {
+        position: absolute;
+        bottom: -7%;
+        left: 35%;
+        font-size: 7.8em;
+    }
+
+    .dot2 {
+        position: absolute;
+        bottom: -7%;
+        left: 50%;
+        font-size: 7.8em;
+    }
+
+    .sell {
+        background: #0070c9;
+        text-decoration: none;
+        color: white;
+        padding: 0px 5px 0 5px;
+        background: linear-gradient(#42a1ec, #0070c9);
+        border-color: #07c;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 4px;
+        font-family: "SF Pro Text", "Arial", sans-serif;
+        transition: all 0.1s ease-in;
+        box-shadow: 0px 0px 0px grey;
+
+    }
+
+
+    .overflowimg {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .siriInsight {
+        width: 220px;
+        height: auto;
+
+
+    }
+
+    .container3 {
+        height: 80vh;
+        background-color: #fafafa;
+        background: #fafafa;
+        overflow: hidden;
+        box-sizing: border-box;
+        font-size: 0.4em;
+        display: none;
+        flex-direction: column;
+
+
+    }
+
+    .line3 {
+        display: none;
+    }
+
+    .indoorFootage {
+        width: 80%;
+        height: auto;
+    }
+
+    .trad {
+        width: 90%;
+        height: 50vh;
+        background-color: #fafafa;
+    }
+
+    .frame1,
+    .frame2 {
+        font-size: 0.5em;
+    }
+
+    .part2text {
+        margin: 5px 100px 5px 100px;
+    }
+
+    .container4 {
+        height: 70vh;
+        background-color: #fafafa;
+    }
+
+    .container5 {
+        height: 70vh;
+    }
+
+    .containtext {
+        height: 391.234567px;
+        font-size: 0.6em;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .textsound {
+        width: 80%;
+        margin: 0px 100px 10px 100px;
+
+    }
+
+    .py-2 {
+        font-size: 0.9em;
+        padding: 0 1px 0 1px;
+        margin: 5px 1px 5px 1px;
+
+
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .py-2 {
+        font-size: 0.83em;
+        margin: 5px 1px 5px 1px;
+    }
+
+    .sell {
+        background: #0070c9;
+        text-decoration: none;
+        color: white;
+        padding: 0px 5px 0 5px;
+        background: linear-gradient(#42a1ec, #0070c9);
+        border-color: #07c;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 4px;
+        font-family: "SF Pro Text", "Arial", sans-serif;
+        transition: all 0.1s ease-in;
+        box-shadow: 0px 0px 0px grey;
+
+    }
+
+}
+
+@media screen and (min-width:551px) and (max-width: 1000px) {
+    .container1 {
+        height: 50vh;
+        ;
+        background-color: #fafafa;
+        background: url("img/midWidthBackground.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        back
+    }
+
+    .container2 {
+        height: 470px;
+    }
+
+    .buy {
+        margin: 0 auto;
+    }
+
+    .sell {
+        background: #0070c9;
+        text-decoration: none;
+        color: white;
+        padding: 0px 5px 0 5px !important;
+        padding-top: 0 px !important;
+        background: linear-gradient(#42a1ec, #0070c9);
+        border-color: #07c;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 4px;
+        font-family: "SF Pro Text", "Arial", sans-serif;
+        transition: all 0.1s ease-in;
+        box-shadow: 0px 0px 0px grey;
+
+    }
+
+    .responsiveConfig {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer_div_flex p,
+    .footer_div_flex a {
+        font-size: 10px;
+
+    }
+
+    .footer_div_flex h4 {
+        font-size: 13px;
+    }
+
+    .reponsiveConfig_div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #quote1 {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 1.3em;
+    }
+
+    .part1,
+    .part2 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .dot {
+        position: absolute;
+        bottom: -7%;
+        left: 35%;
+        font-size: 7.8em;
+    }
+
+    .dot2 {
+        position: absolute;
+        bottom: -7%;
+        left: 50%;
+        font-size: 7.8em;
+    }
+
+    .overflowimg {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .siriInsight {
+        width: 220px;
+        height: auto;
+
+
+    }
+
+    .frame1,
+    .frame2 {
+        font-size: 0.5em;
+    }
+
+    .container3 {
+        height: 600px;
+        ;
+        background-color: #fafafa;
+        background: #fafafa;
+        overflow: hidden;
+        box-sizing: border-box;
+        font-size: 0.4em;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .container4,
+    .container5 {
+        height: 540px;
+    }
+
+    .container3 {
+        display: none !important;
+    }
+
+    .containtext {
+        width: 500px;
+        height: 450px;
+        font-size: 0.8em;
+    }
+
+    .textsound {
+        width: 70%;
+        margin: 0px 100px 10px 100px;
+
+    }
+
+    #argumentitre2,
+    #argumentitre {
+        font-size: 2.8em;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+    #quote1 {
+        font-size: 1.4em;
+    }
+
+    .container1 {
+        height: 500px;
+    }
+
+    .part2text {
+        font-size: 1.4em;
+    }
+
+    .overflowimg {
+        width: 450px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .siriInsight {
+        width: 450px;
+        height: auto;
+
+
+    }
+
+    .trad {
+        font-size: 0.8em;
+    }
+
+    #argumentitre2,
+    #argumentitre {
+        font-size: 2.4em;
+    }
+
+    .textsound {
+        width: 70%;
+        margin: 0px 100px 10px 100px;
+
+    }
+
+
+
+
+
+}
