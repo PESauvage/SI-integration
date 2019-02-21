@@ -113,7 +113,15 @@ footer nav{
 
 footer nav ul {
   margin-top:0.5em;
+  justify-content: center;
+}
 
+.footer_div_flex{
+  justify-content: center;
+}
+
+.footer_div_flex nav{
+  justify-content: center;
 }
 
 footer nav ul li {
@@ -334,6 +342,7 @@ a:hover{
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    max-width: 100%;
   }
 
   .textIllustration{
@@ -378,6 +387,7 @@ a:hover{
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    max-width: 100%;
   }
 
   .textIllustration{
@@ -404,5 +414,40 @@ a:hover{
     justify-content: center;
   }
 
+  footer nav{
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer nav ul {
+    margin-top:0.5em;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .footer_div_flex{
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .footer_div_flex nav{
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footer_linksPic{
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer_usefulLinks{
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    
+  }
 
 }
